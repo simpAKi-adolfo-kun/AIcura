@@ -8,3 +8,13 @@ body {
     text-align: center;
     background-blend-mode: darken;
 }
+/* Style for the "About Us" section (similar to the image) */
+.about-style-2 {
+    position: relative; /* For positioning the overlay */
+    padding: 100px 20px; /*Adjust the Padding*/
+    text-align: center; /* Will Center the content */
+    color: white;
+    background-size: cover;
+    background-position: center bottom;
+    overflow: hidden; 
+}
