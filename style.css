@@ -1,12 +1,13 @@
+/* ===== Global Styles ===== */
 body {
     font-family: Arial, sans-serif;
-    background: url('/AIcura/Images/Background\ Image.jpg') no-repeat center center fixed;
+    background: url('/Images/Background Image.jpg') no-repeat center center fixed;
     background-size: cover;
+    background-blend-mode: darken;
     color: #333;
     margin: 0;
     padding: 0;
     text-align: center;
-    background-blend-mode: darken;
 }
 /* Style for the "About Us" section (similar to the image) */
 .about-style-2 {
