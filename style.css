@@ -120,7 +120,15 @@ header {
 .team-member-card:hover {
     box-shadow: 0 8px 16px rgba(0,0,0,0.3);
 }
+/* ===== Team Section ===== */
+.team {
+    padding: 40px 20px;
+    text-align: center;
+}
 
+.team h3 {
+    font-size: 30px;
+}
 }
 .grayscale-hover {
     filter: grayscale(100%);
