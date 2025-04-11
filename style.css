@@ -144,3 +144,11 @@ body {
     opacity: 1;
     transform: translateY(0);
 }
+/* ===== Footer ===== */
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #D099E2;
+    color: white;
+    text-align: center;
+}
