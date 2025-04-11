@@ -11,13 +11,23 @@ body {
 }
 /* Style for the "About Us" section (similar to the image) */
 .about-style-2 {
-    position: relative; /* For positioning the overlay */
-    padding: 100px 20px; /*Adjust the Padding*/
-    text-align: center; /* Will Center the content */
+    position: relative;
+    padding: 100px 20px;
+    text-align: center;
     color: white;
     background-size: cover;
     background-position: center bottom;
-    overflow: hidden; 
+    overflow: hidden;
+}
+.about-style-2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.6));
+    opacity: 0.7;
 }
 .team-members {
     display: flex;
