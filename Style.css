@@ -1,0 +1,151 @@
+/* General Page Styles */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: url('Images/background.png') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: flex-start;     /* Align vertically to top */
+    justify-content: flex-start; /* Align horizontally to left */
+    padding: 40px;
+  }
+  /* Header */
+  header {
+    background-color: #d3a5f2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .logo img {
+    max-width: 150px;
+    height: auto;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav a {
+    text-decoration: none;
+    font-weight: 900;
+    transition: all 0.3s ease;
+    color: white;
+  }
+  
+  nav a:hover {
+    color: #4b0082;
+    background-color: white;
+    border-radius: 10%;
+    padding: 0.25rem 0.5rem;
+  }
+  
+  /* Container */
+  .container {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    margin-top: 40px;
+  }
+  
+  /* Contact Card with Glassmorphism */
+  .contact-card {
+    background-color: rgba(255, 255, 255, 0.25);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  .contact-card h1 {
+    text-align: center;
+    color: #db2777;
+    margin-bottom: 25px;
+    font-size: 32px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 6px;
+    color: #444;
+    font-weight: 600;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #f9a8d4;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+    transition: 0.3s;
+  }
+  
+  input:focus,
+  textarea:focus {
+    border-color: #ec4899;
+    box-shadow: 0 0 5px #f472b6;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 14px;
+    background-color: #ec4899;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #db2777;
+  }
+  
+  /* Social Sidebar */
+  .social-sidebar {
+    position: fixed;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    z-index: 1000;
+  }
+  
+  .social-sidebar a {
+    background-color: #D099E2;
+    color: white;
+    padding: 12px;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all 0.3s ease;
+  }
+  
+  .social-sidebar a:hover {
+    background-color: #db2777;
+    transform: scale(1.1);
+  }
+  
