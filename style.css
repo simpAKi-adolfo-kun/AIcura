@@ -129,6 +129,9 @@ header {
 .team h3 {
     font-size: 30px;
 }
+.member-image:hover img {
+    filter: brightness(80%);
+}
 }
 .grayscale-hover {
     filter: grayscale(100%);
