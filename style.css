@@ -54,12 +54,12 @@ body {
 .grayscale-hover {
     filter: grayscale(100%);
     transition: filter 0.4s ease, transform 0.4s ease;
-  }
-  
-  .grayscale-hover:hover {
+}
+
+.grayscale-hover:hover {
     filter: grayscale(0%);
     transform: scale(1.05);
-  }
+}
 /* FAQ Section */
 .faq {
     padding: 20px;
