@@ -45,3 +45,23 @@ body {
     filter: grayscale(0%);
     transform: scale(1.05);
   }
+/* FAQ Section */
+.faq {
+    padding: 20px;
+    text-align: center; /* Center the FAQ heading and icon */
+}
+
+.faq-item {
+    text-align: left; /* Align question text to the left */
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    background-color: #f9f9f9; /* Light background for questions */
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    color: #333;
+    margin-bottom: 10px; /* Add some spacing between FAQ items */
+}
