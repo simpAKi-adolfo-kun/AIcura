@@ -36,16 +36,20 @@ body {
     flex-wrap: wrap;
     margin-top: 20px;
 }
+
 .team-member-card {
-    width: 200px; /* Adjust as needed */
+    width: 200px;
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     transition: box-shadow 0.3s ease;
-    background-color: #f9f9f9; /* Optional: Background color for the card */
+    background-color: #f9f9f9;
 }
+
 .team-member-card:hover {
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+
 }
 .grayscale-hover {
     filter: grayscale(100%);
