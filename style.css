@@ -9,6 +9,16 @@ body {
     padding: 0;
     text-align: center;
 }
+/* ===== Header ===== */
+header {
+    position: fixed;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(208, 153, 226, 0.7); /* Transparent #D099E2 */
+    color: white;
+    text-align: left;
+    z-index: 1000;
+}
 /* Style for the "About Us" section (similar to the image) */
 .about-style-2 {
     position: relative;
