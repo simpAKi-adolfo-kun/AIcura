@@ -9,6 +9,47 @@ body {
     padding: 0;
     text-align: center;
 }
+h1 {
+    margin: 0;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.sub-title {
+    font-size: 1.2em;
+}
+
+/* ===== About Section ===== */
+.about {
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.about-heading {
+    display: none; /* Hidden to use styled version */
+    text-align: center;
+}
+
+.about-heading p {
+    margin: 0;
+    padding: 0;
+}
+
+.about-logo {
+    width: 80px;
+}
+
+.centered-img {
+    width: 100%;
+    max-width: 40%;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 2px solid #D099E2;
+}
+
+.info-text {
+    font-size: larger;
+}
 /* ===== Header ===== */
 header {
     position: fixed;
