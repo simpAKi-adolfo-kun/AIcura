@@ -60,6 +60,28 @@ body {
     filter: grayscale(0%);
     transform: scale(1.05);
 }
+.member-info {
+    padding: 15px;
+    text-align: center;
+}
+
+.member-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.member-title {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.member-description {
+    font-size: 0.9em;
+    line-height: 1.4;
+    padding: 0 10px;
+}
 /* ===== FAQ Section ===== */
 .faq {
     padding: 20px;
