@@ -1,3 +1,4 @@
+/* header section/
 header {
     background-color: #d3a5f2;
     display: flex;
@@ -38,7 +39,7 @@ nav a:hover {
     border-radius: 20px;
 }
 
-
+/* footer section /
 footer {
     background-color: #d3a5f2;
     padding: 2rem;
