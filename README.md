@@ -16,3 +16,4 @@
 # To Badhan & Eqramul ~ Can you please provide me your photos.
 # TO Manish - I have send it
 // >>>>>>> main 
+To eqramul ~ please rectify your code our company name is AIcura.
