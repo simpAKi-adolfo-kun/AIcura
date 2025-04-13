@@ -1,0 +1,295 @@
+/* ===== Global Styles ===== */
+body {
+    font-family: Arial, sans-serif;
+    background: url('/Images/Background Image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h1 {
+    margin: 0;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.sub-title {
+    font-size: 1.2em;
+}
+
+/* ===== About Section ===== */
+.about {
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.about-heading {
+    display: none; /* Hidden to use styled version */
+    text-align: center;
+}
+
+.about-heading p {
+    margin: 0;
+    padding: 0;
+}
+
+.about-logo {
+    width: 80px;
+}
+
+.centered-img {
+    width: 100%;
+    max-width: 40%;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 2px solid #D099E2;
+}
+
+.info-text {
+    font-size: larger;
+}
+/* ===== Header ===== */
+header {
+    position: fixed;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(208, 153, 226, 0.7); /* Transparent #D099E2 */
+    color: white;
+    text-align: left;
+    z-index: 1000;
+}
+/* Style for the "About Us" section (similar to the image) */
+.about-style-2 {
+    position: relative;
+    padding: 100px 20px;
+    text-align: center;
+    color: white;
+    background-size: cover;
+    background-position: center bottom;
+    overflow: hidden;
+}
+.about-style-2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.6));
+    opacity: 0.7;
+}
+
+.about-style-2 .about-content {
+    position: relative;
+    z-index: 1;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-style-2 h2 {
+    font-size: 4em;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.about-style-2 p {
+    font-size: 1.2em;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+.team-members {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.team-member-card {
+    width: 200px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: box-shadow 0.3s ease;
+    background-color: #f9f9f9;
+}
+
+.team-member-card:hover {
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+/* ===== Team Section ===== */
+.team {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.team h3 {
+    font-size: 30px;
+}
+.member-image:hover img {
+    filter: brightness(80%);
+}
+}
+.grayscale-hover {
+    filter: grayscale(100%);
+    transition: filter 0.4s ease, transform 0.4s ease;
+}
+
+.grayscale-hover:hover {
+    filter: grayscale(0%);
+    transform: scale(1.05);
+}
+.member-info {
+    padding: 15px;
+    text-align: center;
+}
+
+.member-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.member-title {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.member-description {
+    font-size: 0.9em;
+    line-height: 1.4;
+    padding: 0 10px;
+}
+/* ===== FAQ Section ===== */
+.faq {
+    padding: 20px;
+    text-align: center;
+}
+
+.faq-icon {
+    width: 120px;
+    height: 80px;
+    margin: 20px auto;
+    border-radius: 50%;
+    border: 5px solid #555;
+    background-color: #333;
+    color: white;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.faq-icon h3 {
+    margin: 0;
+    line-height: 1;
+}
+
+.faq-icon:hover {
+    transform: scale(1.05);
+    background-color: #555;
+    box-shadow: 0 0 15px 5px rgba(255,255,255,0.7);
+}
+
+.faq-item {
+    text-align: left;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.faq-item:hover {
+    transform: translateY(-3px);
+    background-color: #eee;
+    box-shadow: 0 0 10px 3px rgba(255,255,255,0.5);
+}
+
+.faq-btn {
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    color: #555;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.faq-btn:hover {
+    transform: scale(1.2);
+    color: #000;
+    text-shadow: 0 0 5px rgba(255,255,255,0.8);
+}
+
+.faq-answer {
+    display: none;
+    padding: 15px;
+    font-size: 1em;
+    background-color: #D099E2;
+    color: white;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+    border-top: 1px solid #555;
+}
+
+.faq-item.active .faq-answer {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+}
+/* ===== Responsive Styles ===== */
+@media (max-width: 768px) {
+    .team-members {
+        flex-direction: column;
+    }
+
+    .team-member-card {
+        width: 100%;
+    }
+
+    .about-style-2 {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .about-style-2 h2 {
+        font-size: 3em;
+        margin-bottom: 15px;
+    }
+
+    .about-style-2 p {
+        font-size: 1em;
+        line-height: 1.6;
+    }
+
+    .centered-img,
+    .info-text {
+        display: block;
+        margin-top: 20px;
+    }
+
+    .faq-icon {
+        width: 80px;
+        height: 60px;
+        font-size: 1.5em;
+    }
+}
+/* ===== Footer ===== */
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #D099E2;
+    color: white;
+    text-align: center;
+}
