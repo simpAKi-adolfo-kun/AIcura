@@ -1,29 +1,27 @@
-// <<<<<<< about-us
-document.addEventListener("DOMContentLoaded", function () {
-    document.querySelectorAll(".faq-item").forEach((item) => {
-        const button = item.querySelector(".faq-btn");
-        const answer = item.querySelector(".faq-answer");
+document.addEventListener('DOMContentLoaded', function() {
+  // Select all FAQ items
+  const faqItems = document.querySelectorAll('.faq-item');
 
-        button.addEventListener("click", function (event) {
-            event.stopPropagation();
+  // Loop through each FAQ item and add event listener
+  faqItems.forEach(item => {
+    const btn = item.querySelector('.faq-btn'); // Select the button inside each FAQ item
+    const answer = item.querySelector('.faq-answer'); // Select the answer inside each FAQ item
 
-            item.classList.toggle("active");
+    // Add click event listener on the FAQ button
+    btn.addEventListener('click', () => {
+      // Toggle the "active" class to show or hide the answer
+      item.classList.toggle('active');
 
-            if (item.classList.contains("active")) {
-                answer.style.display = "block";
-                this.textContent = "-"; // Reverted button text
-                this.style.transform = "rotate(180deg)"; // Keeping the rotation
-                this.style.backgroundColor = "transparent"; // Reverted background
-                this.style.color = "#000"; // Reverted text color (or whatever default you prefer)
-            } else {
-                answer.style.display = "none";
-                this.textContent = "+"; // Reverted button text
-                this.style.transform = "rotate(0deg)"; // Keeping the rotation
-                this.style.backgroundColor = "transparent"; // Reverted background
-                this.style.color = "#000"; // Reverted text color (or whatever default you prefer)
-            }
-        });
-// =======
+      // If the "active" class is added, show the answer
+      if (item.classList.contains('active')) {
+        answer.style.display = 'block'; // Display the answer
+      } else {
+        answer.style.display = 'none'; // Hide the answer
+      }
+    });
+  });
+});
+
 document.getElementById('contactForm').addEventListener('submit', function (e) {
   e.preventDefault();
 
