@@ -9,7 +9,7 @@
 # Another work, header & footer are changed (needs to implement that one too). ✅Done
 # Happy to say, CSS Part completed needs to work on the JS Query.
 # AIcura
-
+<////about-us>
 #TO eqramul ~ change the name of your html file from demo to index 
 #TO manish ~ look up bootstrap/jsquery.
 # To Badhan ~ I have included the jsquery and bootstrap in my code too.
