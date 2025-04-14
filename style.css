@@ -128,6 +128,19 @@ header {
 
 .team h3 {
     font-size: 30px;
+}.
+.member-image {
+    width: 100%;
+    height: auto;
+}
+
+.member-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+    object-fit: cover;
+    transition: filter 0.4s ease;
 }
 .member-image:hover img {
     filter: brightness(80%);
