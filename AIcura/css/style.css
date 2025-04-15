@@ -193,15 +193,14 @@ footer p {
     color: #3e246d;
 }
 
-/* Dark mode styles */
 body.dark-mode {
-    background-color: #1a0a2e;
+    background-color: #1d0e30;
     color: #e4dcdc;
 }
 
 body.dark-mode header,
 body.dark-mode footer {
-    background-color: #4b0082;
+    background-color: #371053;
 }
 
 body.dark-mode nav a {
@@ -211,7 +210,7 @@ body.dark-mode nav a {
 body.dark-mode nav a:hover,
 body.dark-mode nav a.active {
     color: #d3a5f2;
-    background-color: #3e246d;
+    background-color: #3c2467;
 }
 
 body.dark-mode .product-card {
@@ -233,7 +232,7 @@ body.dark-mode .price {
 }
 
 body.dark-mode .hero-section {
-    background: linear-gradient(135deg, #3e246d, #1a0a2e);
+    background: linear-gradient(135deg, #3e246d, #200f35);
 }
 
 body.dark-mode .theme-toggle {
