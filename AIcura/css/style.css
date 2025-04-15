@@ -15,8 +15,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    box-shadow: 0 4px 8pxrgba(0, 0, 0, 0.1);
-    position: sticky;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position:  scroll;
     top: 0;
     z-index: 1000;
 }
@@ -166,9 +166,9 @@ footer p {
 
 .theme-toggle {
     background: #d3a5f2;
-    color: white;
+    color: #f1f1f1;
     border: none;
-    padding: 0.5rem 1rem;
+    padding: 0rem .5rem;
     border-radius: 20px;
     cursor: pointer;
     font-weight: bold;
