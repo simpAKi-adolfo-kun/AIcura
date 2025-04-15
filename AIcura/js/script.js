@@ -31,7 +31,6 @@ const Products = [
 
 function renderProducts() {
     const container = document.querySelector('.products-container');
-    container.style.display = 'none'
     container.innerHTML = ''; 
     
     Products.forEach(product => {
@@ -50,17 +49,6 @@ function renderProducts() {
         container.appendChild(productCard);
     });
 }
-$('.products-container').hide();
-setTimeout(function() {
-    renderProducts();
-    setupProductCardHover();
-});
-    
-  
-    $('.loading').fadeOut(400, function() {
-       
-        $('.products-container').fadeIn(600);
-    });
 function toggleTheme() {
     document.body.classList.toggle('dark-mode');
     const isDarkMode = document.body.classList.contains('dark-mode');
@@ -129,8 +117,7 @@ function setupProductCardHover() {
                 'transform': 'translateY(0)',
                 'box-shadow': '0 4px 8px var(--shadow-color)'
             });
-        }
-    );
+ });
 }
 
 document.addEventListener('DOMContentLoaded', () => {
