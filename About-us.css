@@ -135,7 +135,6 @@ header {
     text-align: left;
     z-index: 1000;
 }
-/* Style for the "About Us" section (similar to the image) */
 .about-style-2 {
     position: relative;
     padding: 160px 20px;
@@ -195,7 +194,6 @@ header {
 .team-member-card:hover {
     box-shadow: 0 8px 16px rgba(0,0,0,0.3);
 }
-/* ===== Team Section ===== */
 .team {
     padding: 40px 20px;
     text-align: center;
@@ -206,13 +204,13 @@ header {
 }
 .member-image {
     width: 100%;
-    height: auto;
+    height: 284px;
 }
 
 .member-image img {
     display: block;
     width: 100%;
-    height: auto;
+    height: 200px;
     border-radius: 8px 8px 0 0;
     object-fit: cover;
     transition: filter 0.4s ease;
