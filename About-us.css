@@ -36,13 +36,13 @@ body {
     max-width: 150px;
     height: auto;
   }
-
   nav ul {
     list-style: none;
     display: flex;
     gap: 2rem;
     margin: 0;
-    padding: 0;
+    justify-content: flex-end;
+    padding-left: 50rem;
   }
 
   nav a {
@@ -348,13 +348,13 @@ header {
 }
 /* Dark Mode CSS*/
 body.dark-mode {
-    background-color: #121212;
+    background-color: #ba1616;
     color: #ffffff;
   }
   
   body.dark-mode header,
   body.dark-mode footer {
-    background-color: #1f1f1f;
+    background-color: #b10707;
     color: #fff;
   }
   
@@ -364,16 +364,16 @@ body.dark-mode {
   
   body.dark-mode nav a:hover {
     color: #fff;
-    background-color: #333;
+    background-color: #890f0f;
   }
   
   body.dark-mode .faq-item {
-    background-color: #333;
+    background-color: #951010;
     color: #fff;
   }
   
   body.dark-mode .faq-answer {
-    background-color: #555;
+    background-color: #ca0f0f;
   }
   
   body.dark-mode .team-member-card {
@@ -383,7 +383,6 @@ body.dark-mode {
   body.dark-mode .member-name {
     color: #fff;
   }
-  
 /* ===== Footer ===== */
 footer {
     margin-top: 20px;
