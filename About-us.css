@@ -346,13 +346,13 @@ header {
 }
 /* Dark Mode CSS*/
 body.dark-mode {
-    background-color: #ba1616;
+    background-color: #ffffff;
     color: #ffffff;
   }
   
   body.dark-mode header,
   body.dark-mode footer {
-    background-color: #b10707;
+    background-color: #371053;
     color: #fff;
   }
   
@@ -362,20 +362,20 @@ body.dark-mode {
   
   body.dark-mode nav a:hover {
     color: #fff;
-    background-color: #890f0f;
+    background-color: #371053;
   }
   
   body.dark-mode .faq-item {
-    background-color: #951010;
+    background-color: #371053;
     color: #fff;
   }
   
   body.dark-mode .faq-answer {
-    background-color: #ca0f0f;
+    background-color: #371053;
   }
   
   body.dark-mode .team-member-card {
-    background-color: #222;
+    background-color: #371053;
   }
   
   body.dark-mode .member-name {
