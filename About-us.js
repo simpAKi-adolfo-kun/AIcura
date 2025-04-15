@@ -16,9 +16,16 @@ document.addEventListener('DOMContentLoaded', function() {
         if (item.classList.contains('active')) {
           answer.style.display = 'block'; // Display the answer
         } else {
-          answer.style.display = 'none'; // Hide the answer
+          answer.style.display = 'none'; 
         }
       });
     });
   });
-  
+<script>
+  document.getElementById("darkModeToggle").addEventListener("click", function () {
+    document.body.classList.toggle("dark-mode");
+
+    // Change button text/icon for better UX
+    this.textContent = document.body.classList.contains("dark-mode") ? "☀️ Light Mode" : "🌙 Dark Mode";
+  });
+</script>
