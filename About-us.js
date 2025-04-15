@@ -21,11 +21,11 @@ document.addEventListener('DOMContentLoaded', function() {
       });
     });
   });
-<script>
+
   document.getElementById("darkModeToggle").addEventListener("click", function () {
     document.body.classList.toggle("dark-mode");
 
     // Change button text/icon for better UX
     this.textContent = document.body.classList.contains("dark-mode") ? "☀️ Light Mode" : "🌙 Dark Mode";
   });
-</script>
+
