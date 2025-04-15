@@ -346,6 +346,44 @@ header {
         transform: translateY(0);
     }
 }
+/* Dark Mode CSS*/
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  body.dark-mode header,
+  body.dark-mode footer {
+    background-color: #1f1f1f;
+    color: #fff;
+  }
+  
+  body.dark-mode nav a {
+    color: #ccc;
+  }
+  
+  body.dark-mode nav a:hover {
+    color: #fff;
+    background-color: #333;
+  }
+  
+  body.dark-mode .faq-item {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  body.dark-mode .faq-answer {
+    background-color: #555;
+  }
+  
+  body.dark-mode .team-member-card {
+    background-color: #222;
+  }
+  
+  body.dark-mode .member-name {
+    color: #fff;
+  }
+  
 /* ===== Footer ===== */
 footer {
     margin-top: 20px;
