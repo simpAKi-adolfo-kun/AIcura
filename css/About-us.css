@@ -330,7 +330,6 @@ header {
     transform: translateY(0);
 }
 
-/* Optional: You can add an animation for the FAQ answer */
 .faq-answer {
     animation: fadeIn 0.3s ease-out;
 }
