@@ -248,3 +248,57 @@ body.dark-mode .theme-toggle:hover {
 body.dark-mode .spinner {
     color: #d3a5f2;
 }
+
+.navbar {
+    padding: 0.5rem 2rem;
+  }
+  
+  .navbar .nav-link {
+    color: white ;
+    font-weight: 900;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s ease;
+  }
+  
+  .navbar .nav-link:hover,
+  .navbar .nav-link.active {
+    color: #4b0082;
+    background-color: white;
+    border-radius: 20px;
+  }
+  
+  .navbar-toggler {
+    border: none;
+    color: white;
+  }
+  
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  body.dark-mode .navbar {
+    background-color: #371053;
+  }
+  
+  body.dark-mode .navbar .nav-link {
+    color: #e4dcdc ;
+  }
+  
+  body.dark-mode .navbar .nav-link:hover,
+  body.dark-mode .navbar .nav-link.active {
+    color: #d3a5f2 ;
+    background-color: #3c2467;
+  }
+  
+  @media (max-width: 991.98px) {
+    .navbar-collapse {
+      background-color: #d3a5f2;
+      padding: 1rem;
+      margin-top: 0.5rem;
+      border-radius: 10px;
+    }
+    
+    body.dark-mode .navbar-collapse {
+      background-color: #371053;
+    }
+  }
